@@ -1,0 +1,3 @@
+[submodule "phpfaker"]
+	path = phpfaker
+	url = https://github.com/Itart/php-faker.git
