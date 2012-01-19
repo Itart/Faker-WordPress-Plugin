@@ -1,1 +1,110 @@
-My GitHub Page
+<!doctype html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" > <![endif]-->
+	    <title dir="ltr">HTML5 Boilerplate - A rock-solid default template for HTML5 awesome.</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	</head>
+<body>
+<h1>Faker</h1>
+    <p><em>Adds a function to generate a test data.</em></p>
+    <hr />
+    <p>
+    <strong>Contributors:</strong> Pavel Gopanenko<br />
+    <strong>Donate link:</strong> <br />
+    <strong>Tags:</strong> data, fake, testing, test, development<br />
+    <strong>Requires at least:</strong> 3.3.1<br />
+    <strong>Tested up to:</strong> 3.3.1<br />
+    <strong>Stable tag:</strong> 1.0.0  </p>
+    <hr />
+    <h3>Description</h3>
+    <p>Adds a function to generate a test data, based on PHPFaker library. Basic generators:</p>
+    Name
+	<ul>
+	<li>name</li>
+	<li>firstName</li>
+	<li>surname</li>
+	<li>prefix</li>
+	<li>suffix</li>
+	</ul>
+	Address
+	<ul>
+	<li>streetSuffix</li>
+	<li>streetName</li>
+	<li>streetAddress</li>
+	<li>abodeAddress</li>
+	<li>ukCounty</li>
+	<li>ukCountry</li>
+	<li>postCode</li>
+	<li>usState</li>
+	<li>usStateAbbr</li>
+	<li>zipCode</li>
+	</ul>
+	Company
+	<ul>
+	<li>name</li>
+	<li>suffix</li>
+	<li>catchPhrase</li>
+	<li>bs</li>
+	</ul>
+	Internet
+	<ul>
+	<li>sanitiseName</li>
+	<li>domainSuffix</li>
+	<li>domainWord</li>
+	<li>domainName</li>
+	<li>userName</li>
+	<li>email</li>
+	<li>freeEmail</li>
+	</ul>
+	Lorem
+	<ul>
+	<li>words</li>
+	<li>sentence</li>
+	<li>sentences</li>
+	<li>paragraph</li>
+	<li>paragraphs</li>
+	</ul>
+	Phone
+	<ul>
+	<li>phoneNumber</li>
+	</ul>   
+
+<hr />
+<h3>Installation</h3>
+<p>This section describes how to install the plugin and get it working.</p>
+<ol>
+<li><a href="http://itart.github.com/Faker-WordPress-Plugin/faker.zip">Download</a> plugin archive, unpack plugin directory</li>
+<li>Upload plugin directory to the <code>/wp-content/plugins/</code> directory</li>
+<li>Activate the plugin through the 'Plugins' menu in WordPress</li>
+<li>Place <code>&lt;?php $data = faker_generate('name', 'name'); ?&gt;</code> in your scriptis</li>
+</ol>   
+<hr />
+<h3>Frequently Asked Questions</h3>
+<h4>How to get current instance \PHPFaker\Faker?</h4>
+
+<p>Current Faker instance available in <code>Faker::getFaker()</code> static method</p>
+
+<h4>How can I create a generator?</h4>
+
+<p>You must extend the class <code>\PHPFaker\Generator\AbstractGenerator</code> and register it in faker method <code>\PHPFaker\Faker::registryGenerator()</code>. 
+After that, the generator can be obtained from an current  Faker instance or <code>faker_generate('my_generator', '...')</code> function.</p>   <hr />
+        <h3>Changelog</h3>
+    <h4>1.0.0</h4>
+
+<ul>
+<li>First stable version.</li>
+</ul>   <hr />
+    
+    <h3>Upgrade Notice</h3>
+    <dl>
+        <dt>No need upgrade.</dt>
+        <dd></dd>
+    </dl>
+
+    
+<hr />
+</body>
+
+</html>
